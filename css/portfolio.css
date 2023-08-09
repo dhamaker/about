@@ -1,0 +1,251 @@
+/*
+  Portfolio styles
+  dhamaker
+  responsive default is desktop.  mobile as enhancement.
+
+  colors:
+  #4a90e2   -- blue theme anchor
+
+
+*/
+body {
+  font-family:verdana, sans-serif;
+  font-size:calc(1rem + .4vw);
+  line-height:1.8;
+  margin:0 6vw;
+  max-width:36em;
+  background:#fff;
+  padding-top:4.5em;
+}
+body > header a {text-decoration:none;}
+body > header {
+  z-index:100;
+  display:block;
+  width:100%;
+  position:fixed;
+  top:0;
+  margin:0 -6vw;
+  padding:0 6vw 1em 6vw;
+  background:rgba(255,255,255,.8);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 65%,rgba(255,255,255,0.5) 85%,rgba(255,255,255,0) 100%);
+}
+body > header .fn {color:#4a90e2;color:#6492ee;}
+header h1 {font-size:2em;margin-top:0;font-weight:normal;line-height:1.5}
+header h1+.description {margin-top:-2.5em;font-style: italic;font-size:.75em;}
+
+.category abbr {text-decoration:none;color:#999;margin-left:-.1em;}
+article {margin-top:0em;padding-bottom:1em;}
+article .breadcrumb {font-size:.875em;text-decoration:none;padding:none;display:block}
+article .breadcrumb:hover {text-decoration:underline;}
+article .breadcrumb::before {font-size:1rem;}
+
+/* main a {}*/
+main a:link, main a:active {color:#0001C6}
+main a:visited {color:#0462B6}
+/* main a:hover {} */
+h2 {font-size:1em;}
+
+.synopsis {margin-top:0;padding:0;}
+.synopsis h3  {margin-bottom:0;font-weight:normal;font-size:1em;}
+.synopsis p {margin-top:0;}
+
+.synopsis a {text-decoration:none;display:block;padding:0 .5em;transition: background-color .5s ease-in-out, color .25s ease;}
+.synopsis a:hover {background:#4a90e2;background:rgba(74,144,226,.5);
+  background:#4089DE;
+  background:rgba(64,137,222,.5);
+  color:#fff;}
+.synopsis a h2  {margin-bottom:0;font-weight:normal;font-size:1em;text-decoration:underline;}
+.synopsis a p {text-decoration:none;color:#000;}
+/*
+.synopsis a:hover h2 {color:#4a90e2;}
+.synopsis a:hover p {color:#999;}
+*/
+
+.splash {margin-top:0; margin-bottom:0}
+
+.splash dt {
+  font-size:calc(7rem + .8vw);
+  color:#ccc;
+  margin-top:.25em;
+  margin-bottom:-2em;
+}
+.splash dd {
+  margin-left:3em;
+}
+.splash abbr {text-decoration:none;}
+body > nav {
+  z-index:500;
+  position:fixed;
+  width:10em;
+  top:0;
+  right:0;
+  padding:1em 0 .5em 0em;
+  border-radius:0 0 0 10px;
+}
+body > nav details[open] {
+  padding-bottom:3em;
+  border-radius: 0 0 1em 1em;
+  background:rgba(255,255,255,.8);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 95%,rgba(255,255,255,0.5) 98%,rgba(255,255,255,0) 100%);
+}
+body > nav a {display:block;font-size:calc(.825rem + .75vw);padding:.15em 1em 0 1.5em;margin:.25em 0;}
+nav a:hover {color:blue;}
+
+/* experimental.  no Safari support 12/2018
+body > nav details summary {list-style-image:url("i/menu.svg");}
+body > nav details[open] summary {list-style-image:url("i/menu.close.svg")}
+*/
+
+/* footer styles */
+body > footer {
+  background:#fff;
+  width:94vw;
+  margin:2.5em 0 0 -6vw;
+  padding:1em 0 2em 6vw;
+  color:#575757;
+  color:#3B71B0;
+  color:#715B9C;
+  color:#65518C;
+  color:#58447E;
+  color:#000;
+}
+footer > nav a {display:inline-block;margin:.25em .5em .25em 0;color:#000;color:#3B71B0;
+text-shadow: 1px 1px 1px #eee;
+}
+footer > nav a:hover {color:#4a90e2}
+
+.socialbutton {
+  height: 1.25em;
+  margin: 0 0 -.25em .25em;
+}
+
+
+/* article sub-types  */
+article aside {
+  background:#efefef;
+  padding:.1em 1em;
+  border-left:10px solid #999;
+  color:#575757;
+  font-size:.875em;
+  font-family:serif;
+  line-height:1.5;
+}
+
+article blockquote {
+  border-left:16px solid #c6c6c6;
+  background:#f6f6f6;
+  margin-left:0;
+  padding:.25em 1em;
+
+}
+.case-study {
+  margin: 2em auto 2em auto;
+  padding:0 2em;
+  border:1px dashed #999;
+  max-width:28em;
+}
+
+.case-study:before {
+  content:"Case Study";
+  position:relative;
+  top:-1.5em;
+  left:-2em;
+  background:#fff;
+  padding:0 .5em;
+  font-size:.75em;
+  color:#ccc;
+}
+article img {
+  display:block;
+  float:right;
+  margin:1em 0 1em 1em;
+  border-radius:0px;
+  /*box-shadow: rgba(0, 0, 0, 0.3) 2px 2px .5em;*/
+  max-width:50%;
+}
+
+article img + img {
+    position:absolute;
+    right:6vw;
+    margin-top:-.5em;
+}
+
+
+
+.case-study h2 {color:#999;font-size:.75em;font-weight:normal;}
+h1 span {color:#ccc;margin-right:-.5em;margin-top:-.25em;font-size:2em;bottom:-.19em;position:relative;display:inline-block;z-index:-100}
+
+
+/* article.resume styles */
+.resume > header + nav {margin-top:-2em;margin-bottom:2em;}
+.resume > header + nav a {font-size:.875em;margin-right:.5em;display:inline-block}
+
+.resume .vcard h1 {font-size:1.25em;margin-bottom:.5em;}
+.resume .vcard span {font-size:inherit;margin:0;color:inherit;bottom:0;}
+
+.resume h2 {color:#6699ff;color:#6492ee;font-weight:normal;font-size:1.25em;margin:1.5em 0 1em 0;}
+.resume section.job {margin-top:1.5em}
+.resume .job * {margin:0;padding:0}
+.resume .duration {font-size:.875em;margin-bottom:-.25em;color:#333;}
+.resume .position, .resume .client {margin:0 0 1em 0}
+.resume .client::first-letter{color:#999}
+.resume .job >  p.summary {display:block;margin-left:0;}
+.resume h3 {line-height:1.3}
+.resume .job details > ul {padding-left:2em;}
+.resume .job details summary {font-weight:bold;margin-top:1em;}
+.resume .job details summary:after {content:"..."}
+.resume .job details li {margin:1em 0}
+.resume .job ul {list-style-image:url("i/work.svg")}
+.resume .expertise {list-style-image:url("i/check.svg")}
+.resume .expertise li {margin:.5em 0}
+.resume .job > p {display:list-item;list-style-image:url("i/work.svg");margin:1em 0 1em 2em;padding:0;}
+/*.resume .job > p {display:block;list-style:none;background:url("i/work.svg") left 5px no-repeat;margin:1em 0 1em 0;padding:0 0 0 2em;}*/
+
+.resume .degree .specialty {display:list-item;list-style-image:url("i/education.svg");margin-left:2.5em;}
+.resume .skills dt {display:list-item;list-style-image:url("i/skills.svg");margin-left:2em;}
+.resume .skills dd {margin-left:2em;}
+.resume .job li {margin-left:2em;padding-left:.5em;}
+.resume h2+p {margin-top:-1em}
+.resume dt {color:#333;font-weight:bold;margin-top:2em;}
+.resume dd {margin:.25em 0}
+
+/* mobile */
+@media (max-width: 414px) {
+  /* menu */
+  body {
+      margin:0 4vw;
+  }
+  body > header {padding-left:calc(1.5em + 6vw);}
+  body > nav  {
+    left:0;
+    right:inherit;
+    background:none;
+    width:100%;
+    margin-left:6vw;
+  }
+
+  body > nav details summary span {color:transparent;}
+    body > nav details[open] {
+      margin-left:-4vw;
+      padding-left:4vw;
+    }
+
+  body > nav details[open] summary span {
+    color:#000;
+  }
+  body > nav a {
+    font-size:1.3rem;
+    padding-top:.25em;
+    padding-bottom:.25em;
+    margin-bottom:.25em;
+  }
+  article > img {max-width:100%;}
+  .vcard.download {max-width:100%;}
+
+  .splash {margin-top:0; margin-bottom:-2em}
+  h1 span {
+    bottom:-2em;
+    margin-top:-2em;
+    top:1em;
+  }
+}
