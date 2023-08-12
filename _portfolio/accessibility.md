@@ -2,6 +2,7 @@
 title: Accessibility
 layout: default
 section: Portfolio
+description: How complying with Accessibility standards increases web  site value.
 style: case-study
 ---
 ## Problem:

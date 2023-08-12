@@ -1,0 +1,17 @@
+---
+title: Portfolio
+layout: toc
+style: toc
+description: User experience case studies from the real world.
+permalink: /portfolio/
+---
+<!--
+*	[The UX Designer&apos;s Responsibility](design-philosophy.html) We're creating the public marketplaces, social clubs, and business settings for the 21st century.
+-->
+<h1>{{ page.title }}</h1>
+<p>{{ page.description}}</p>
+<ul>
+{% for article in site.portfolio %}
+  <li><a href="{{ site.baseurl }}{{ article.url }}">{{ article.title }}</a>  {{ article.description}}</li>
+{% endfor %}
+</ul>

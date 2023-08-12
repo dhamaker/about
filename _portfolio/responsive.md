@@ -2,6 +2,7 @@
 title: Responsive Design
 layout: default
 section: Portfolio
+description: How designing for Accessibility supports mobile and desktop devices.
 style: case-study
 ---
 ## Problem:

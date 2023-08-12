@@ -2,6 +2,7 @@
 title: Privacy
 layout: default
 section: Portfolio
+description: How making Privacy a UX feature improves experience and reduces risk.
 style: case-study
 ---
 ## Problem:

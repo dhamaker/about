@@ -1,7 +1,6 @@
 ---
 title: Privacy Design
 layout: default
-published: true
 ---
 <article class="blog">
     <header> <a class="breadcrumb" href="index.html">Ideas</a>

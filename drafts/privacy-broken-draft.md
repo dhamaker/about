@@ -2,6 +2,7 @@
 title: Privacy Failures
 layout: default
 section: Ideas
+description: Working Draft
 ---
 > WORKING DRAFT
 

@@ -196,8 +196,8 @@ article img + img {
 
 
 /* article.resume styles */
-.resume > header + nav {margin-top:-2em;margin-bottom:2em;}
-.resume > header + nav a {font-size:.875em;margin-right:.5em;display:inline-block}
+.resume  header + nav {margin-top:-2em;margin-bottom:2em;}
+.resume  header + nav a {font-size:.875em;margin-right:.5em;display:inline-block}
 
 .resume .vcard h1 {font-size:1.25em;margin-bottom:.5em;}
 .resume .vcard span {font-size:inherit;margin:0;color:inherit;bottom:0;}

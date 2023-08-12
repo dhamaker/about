@@ -6,7 +6,7 @@ description: User experience case studies from the real world.
 ---
 
 * [Accessibility](accessibility.html) How complying with Accessibility standards increases web  site value.
-* [Responsive Design](responsive.html) How designing for Accessibility supports mobile and desktop devices
+* [Responsive Design](responsive.html) How designing for Accessibility supports mobile and desktop devices.
 * [Analytics](analytics.html) How to know your visitors, discover usage, and manage business at minimal cost.
 * [SEO](seo.html) How designing for Accessibility makes great SEO.
 * [Multilingual](multilingual.html) How to improve access, enhance Language notifications, and provide Language compliance.

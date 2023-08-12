@@ -2,6 +2,7 @@
 title: Analytics
 layout: default
 section: Portfolio
+description: How to know your visitors, discover usage, and manage business at minimal cost.
 style: case-study
 ---
 ## Problem:

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doug Hamaker | {{ page.title }}</title>
+  <meta name="description" content="User experiencer architect. Digital product manager. Digital design manager. Creating accessible user experiences for the online world."> <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67028251-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-67028251-2');
+  </script>
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/portfolio.css"> <!-- Fav and touch icons -->
+  <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png"> <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png"> <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png"> <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+  <header class="vcard"> <a href="{{ site.baseurl }}/index.html" aria-label="Home - Doug Hamaker User Experience">
+      <p class="fn">Doug Hamaker <span class="category"><abbr title="User Experience">UX</abbr></span></p>
+    </a> </header>
+  <main  class="{{ page.style | downcase | default: normal }}">

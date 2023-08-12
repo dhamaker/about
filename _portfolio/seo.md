@@ -2,6 +2,7 @@
 title: SEO
 layout: default
 section: Portfolio
+description: How designing for Accessibility makes great SEO.
 style: case-study
 ---
 ## Problem:

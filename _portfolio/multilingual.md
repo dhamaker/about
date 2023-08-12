@@ -2,6 +2,7 @@
 title: Multilingual
 layout: default
 section: Portfolio
+description: How to improve access, enhance Language notifications, and provide Language compliance.
 style: case-study
 ---
 ## Problem:
