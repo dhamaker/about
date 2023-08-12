@@ -1,10 +1,7 @@
 ---
-title: Blog
+title: Ideas
 layout: default
+style: toc
 ---
-<article class="synopsis">
-	<a href="design-philosophy.html">
-		<h2>The UX Designer&apos;s Responsibility</h2>
-		<p>We're creating the public marketplaces, social clubs, and business settings for the 21st century.</p>
-	</a>
-</article>
+
+*	[The UX Designer&apos;s Responsibility](design-philosophy.html) We're creating the public marketplaces, social clubs, and business settings for the 21st century.

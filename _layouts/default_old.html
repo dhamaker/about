@@ -21,41 +21,20 @@
 </head>
 
 <body>
-  <header class="vcard"> <a href="{{ site.baseurl }}/index.html" aria-label="Home - Doug Hamaker User Experience">
+  <header class="vcard"> <a href="{{ site.baseurl }}/index.html">
       <p class="fn">Doug Hamaker <span class="category"><abbr title="User Experience">UX</abbr></span></p>
     </a> </header>
   <main>
-    <article class="{{ page.style | downcase | default: normal }}">
-      <header>
-        {% if page.section %}
-         <nav aria-label="breadcrumb">
-          <a href="index.html" class="breadcrumb">{{ page.section }}</a>
-         </nav>
-        {% endif %}
-        <h1> {{ page.title }} </h1>
-      </header>
-      {{ content }}
-    </article>
+    {{ content }}
   </main>
-  <nav aria-label="site">
+  <nav>
     <details>
-      <summary><span>Site Menu<span></summary> 
-        <a href="{{ site.baseurl }}/index.html">Home</a> 
-        <a href="{{ site.baseurl }}/ideas/index.html">Ideas</a> 
-        <a href="{{ site.baseurl }}/portfolio/index.html">Portfolio</a> 
-        <a href="{{ site.baseurl }}/resume.html" aria-label="Resumé">Resume</a> 
-        <a href="{{ site.baseurl }}/index-all.html">Index</a>
+      <summary><span>Site Menu<span></summary> <a href="{{ site.baseurl }}/index.html">Home</a> <a href="{{ site.baseurl }}/ideas/index.html">Ideas</a> <a href="{{ site.baseurl }}/portfolio/index.html">Portfolio</a> <a href="{{ site.baseurl }}/resume.html">Resume</a> <a href="{{ site.baseurl }}/index-all.html">Index</a>
     </details>
   </nav>
-  <footer>
-    <p>&copy;2023. Doug Hamaker <a rel="external" href="https://www.linkedin.com/in/doug-hamaker-ux/" title="Visit LinkedIn Profile" target="_blank"> <img class="socialbutton"
+  <footer>&copy;2020. Doug Hamaker <a rel="external" href="https://www.linkedin.com/in/doug-hamaker-ux/" title="Visit LinkedIn Profile" target="_blank"> <img class="socialbutton"
         srcset=" {{ site.baseurl }}/i/In-2C-44px-TM.png, {{ site.baseurl }}/i/In-2C-94px-TM.png 1.5x, {{ site.baseurl }}/i/In-2C-128px-TM.png 2x " src="{{ site.baseurl }}/i/In-2C-28px-TM.png" alt="LinkedIn Profile"> </a>
-    </p>
-    <a href="{{ site.baseurl }}/ideas/index.html">Ideas</a> 
-    <a href="{{ site.baseurl }}/portfolio/index.html">Portfolio</a> 
-    <a href="{{ site.baseurl }}/resume.html" aria-label="Resumé">Resume</a> 
-    <a href="{{ site.baseurl }}/contact.html">Contact</a> 
-    <a href="{{ site.baseurl }}/privacy.html">Privacy</a> 
+    <p> <a href="{{ site.baseurl }}/resume.html">Resume</a> <a href="{{ site.baseurl }}/portfolio/index.html">Portfolio</a> <a href="{{ site.baseurl }}/ideas/index.html">Ideas</a> <a href="{{ site.baseurl }}/contact.html">Contact</a> <a href="{{ site.baseurl }}/privacy.html">Privacy</a> </p>
   </footer>
 </body>
 

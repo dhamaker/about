@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Doug Hamaker | Contacxt</title>
+  <title>Doug Hamaker | Contact</title>
   <meta name="description" content="User experiencer architect. Digital product manager. Digital design manager. Creating accessible user experiences for the online world."> <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67028251-2"></script>
   <script>
@@ -21,111 +21,128 @@
 </head>
 
 <body>
-  <header class="vcard"> <a href="/about/index.html">
+  <header class="vcard"> <a href="/about/index.html" aria-label="Home - Doug Hamaker User Experience">
       <p class="fn">Doug Hamaker <span class="category"><abbr title="User Experience">UX</abbr></span></p>
     </a> </header>
   <main>
-    <article>
-    <header>
+    <article class="">
+      <header>
+        
         <h1> Contact </h1>
-    </header>
-    <p> Add me to your contacts. &lt;/br&gt; </p>
-    <style>
+      </header>
+      <p>Add me to your Contacts.</p>
+
+<style>
+    .vcard.download {
+        position: relative;
+        margin: 2em 0;
+        padding: 1em;
+        border: 1px dotted #dfdfdf;
+        background: #efefef;
+        box-shadow: #ccc .5em .5em .5em;
+        border-radius: 12px;
+        max-width: 300px;
+        border-radius: 0;
+        border: 1px dashed #999;
+        background: #fff;
+        box-shadow: none;
+    }
+
+    a.vcard.download {
+        display: block;
+        text-decoration: none;
+        color: #000;
+    }
+
+    a.vcard.download:after {
+        content: "\2709";
+        color: #000;
+        font-size: 3em;
+        top: -.2em;
+        right: .25em;
+        position: absolute;
+    }
+
+    a.vcard.download:after {
+        color: #000;
+        content: "\2b07";
+        font-weight: bold;
+        font-size: 1.5em;
+        top: .5em;
+        right: .5em;
+        border-bottom: solid 3px;
+        line-height: 1.1
+    }
+
+    a.vcard.download:hover,
+    a.vcard.download:hover:after {
+        background: #efefef;
+        color: #333
+    }
+
+    .vcard.download p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .vcard.download .email {
+        font-weight: bold
+    }
+
+    .vcard.download .category {
+        font-style: italic;
+    }
+
+    .vcard.download a[type="download"] {
+        position: absolute;
+        top: -.2em;
+        right: .25em;
+        font-size: 3em;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .vcard.download a[type="download"]:hover {
+        color: #999;
+    }
+
+    /* mobile */
+    @media (max-width: 414px) {
         .vcard.download {
-            position: relative;
-            margin: 2em 0;
-            padding: 1em;
-            border: 1px dotted #dfdfdf;
-            background: #efefef;
-            box-shadow: #ccc .5em .5em .5em;
-            border-radius: 12px;
-            max-width: 300px;
-            border-radius: 0;
-            border: 1px dashed #999;
-            background: #fff;
-            box-shadow: none;
+            max-width: 100%;
         }
+    }
+</style>
 
-        a.vcard.download {
-            display: block;
-            text-decoration: none;
-            color: #000;
-        }
+<div>
+<a type="download" href="doug-hamaker.vcf" title="Import to Contacts" class="vcard download">
+    <p class="fn">Doug Hamaker</p>
+    <p class="category">User Experience Manager</p>
+    <p class="email">&#100;hamaker&#64;lmi&#46;net</p>
+</a>
+</div>
 
-        a.vcard.download:after {
-            content: "\2709";
-            color: #000;
-            font-size: 3em;
-            top: -.2em;
-            right: .25em;
-            position: absolute;
-        }
-
-        a.vcard.download:after {
-            color: #000;
-            content: "\2b07";
-            font-weight: bold;
-            font-size: 1.5em;
-            top: .5em;
-            right: .5em;
-            border-bottom: solid 3px;
-            line-height: 1.1
-        }
-
-        a.vcard.download:hover,
-        a.vcard.download:hover:after {
-            background: #efefef;
-            color: #333
-        }
-
-        .vcard.download p {
-            padding: 0;
-            margin: 0;
-        }
-
-        .vcard.download .email {
-            font-weight: bold
-        }
-
-        .vcard.download .category {
-            font-style: italic;
-        }
-
-        .vcard.download a[type="download"] {
-            position: absolute;
-            top: -.2em;
-            right: .25em;
-            font-size: 3em;
-            text-decoration: none;
-            color: #000;
-        }
-
-        .vcard.download a[type="download"]:hover {
-            color: #999;
-        }
-
-        /* mobile */
-        @media (max-width: 414px) {
-            .vcard.download {
-                max-width: 100%;
-            }
-        }
-    </style> <a type="download" href="doug-hamaker.vcf" title="Import to Contacts" class="vcard download">
-        <p class="fn"> Doug Hamaker </p>
-        <p class="category"> User Experience Manager </p>
-        <p class="email"> &#100;hamaker&#64;lmi&#46;net </p>
-    </a>
-</article>
-
+    </article>
   </main>
-  <nav>
+  <nav aria-label="site">
     <details>
-      <summary><span>Site Menu<span></summary> <a href="/about/index.html">Home</a> <a href="/about/ideas/index.html">Ideas</a> <a href="/about/portfolio/index.html">Portfolio</a> <a href="/about/resume.html">Resume</a> <a href="/about/index-all.html">Index</a>
+      <summary><span>Site Menu<span></summary> 
+        <a href="/about/index.html">Home</a> 
+        <a href="/about/ideas/index.html">Ideas</a> 
+        <a href="/about/portfolio/index.html">Portfolio</a> 
+        <a href="/about/resume.html" aria-label="Resumé">Resume</a> 
+        <a href="/about/index-all.html">Index</a>
     </details>
   </nav>
-  <footer>&copy;2020. Doug Hamaker <a rel="external" href="https://www.linkedin.com/in/doug-hamaker-ux/" title="Visit LinkedIn Profile" target="_blank"> <img class="socialbutton"
+  <footer>
+    <p>&copy;2023. Doug Hamaker <a rel="external" href="https://www.linkedin.com/in/doug-hamaker-ux/" title="Visit LinkedIn Profile" target="_blank"> <img class="socialbutton"
         srcset=" /about/i/In-2C-44px-TM.png, /about/i/In-2C-94px-TM.png 1.5x, /about/i/In-2C-128px-TM.png 2x " src="/about/i/In-2C-28px-TM.png" alt="LinkedIn Profile"> </a>
-    <p> <a href="/about/resume.html">Resume</a> <a href="/about/portfolio/index.html">Portfolio</a> <a href="/about/ideas/index.html">Ideas</a> <a href="/about/contact.html">Contact</a> <a href="/about/privacy.html">Privacy</a> </p>
+    </p>
+    <a href="/about/ideas/index.html">Ideas</a> 
+    <a href="/about/portfolio/index.html">Portfolio</a> 
+    <a href="/about/resume.html" aria-label="Resumé">Resume</a> 
+    <a href="/about/contact.html">Contact</a> 
+    <a href="/about/privacy.html">Privacy</a> 
   </footer>
 </body>
 

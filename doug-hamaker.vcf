@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.13.6//EN
+N:Hamaker;Doug;;;
+FN:Doug Hamaker
+TITLE:User Experience Manager
+EMAIL;type=INTERNET;type=HOME;type=pref:dhamaker@lmi.net
+ADR;type=HOME;type=pref:;;;San Francisco;California;;
+END:VCARD

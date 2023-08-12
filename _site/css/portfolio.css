@@ -61,6 +61,25 @@ h2 {font-size:1em;}
 .synopsis a:hover p {color:#999;}
 */
 
+/* toc styles */
+.toc ul {
+  list-style-type: "";
+  padding-left:0;
+}
+.toc li {padding:3rem 1rem 1rem 1rem;margin:1rem 0;line-height:1.5;position:relative;}
+.toc a {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.toc a {border-radius:4px;text-decoration:underline;padding:1rem;display:block;;transition: background-color .5s ease-in-out, color .25s ease;}
+.toc a:hover {text-decoration:none;background:#4a90e2;background:rgba(74,144,226,.5);
+  background:#4089DE;
+  background:rgba(64,137,222,.5);
+  color:#fff;}
+
 .splash {margin-top:0; margin-bottom:0}
 
 .splash dt {
@@ -100,7 +119,7 @@ body > nav details[open] summary {list-style-image:url("i/menu.close.svg")}
 body > footer {
   background:#fff;
   width:94vw;
-  margin:2.5em 0 0 -6vw;
+  margin:2em 0 0 -6vw;
   padding:1em 0 2em 6vw;
   color:#575757;
   color:#3B71B0;
@@ -109,10 +128,10 @@ body > footer {
   color:#58447E;
   color:#000;
 }
-footer > nav a {display:inline-block;margin:.25em .5em .25em 0;color:#000;color:#3B71B0;
+footer > a {display:inline-block;margin:.75em 1em .25em 0;color:#000;color:#3B71B0;
 text-shadow: 1px 1px 1px #eee;
 }
-footer > nav a:hover {color:#4a90e2}
+footer > a:hover {color:#4a90e2}
 
 .socialbutton {
   height: 1.25em;
@@ -172,8 +191,8 @@ article img + img {
 
 
 
+.case-study h1:before {content:"UX";color:#ccc;margin-right:-.5em;margin-top:-.25em;font-size:2em;bottom:-.19em;position:relative;display:inline-block;z-index:-100}
 .case-study h2 {color:#999;font-size:.75em;font-weight:normal;}
-h1 span {color:#ccc;margin-right:-.5em;margin-top:-.25em;font-size:2em;bottom:-.19em;position:relative;display:inline-block;z-index:-100}
 
 
 /* article.resume styles */
