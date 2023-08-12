@@ -66,7 +66,7 @@ h2 {font-size:1em;}
   list-style-type: "";
   padding-left:0;
 }
-.toc li {padding:3rem 1rem 1rem 1rem;margin:1rem 0;line-height:1.5;position:relative;}
+.toc li {padding:3rem 1rem 1rem 1rem;margin:.5rem 0;line-height:1.5;position:relative;}
 .toc a {
   position:absolute;
   top:0;
