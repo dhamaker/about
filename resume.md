@@ -5,6 +5,7 @@ style: Resume
 ---
 <nav>
   <a href="#expertise">Expertise</a> <a href="#work">Work History</a> <a href="#education">Education</a> <a href="#skills">Tools</a>
+  <a href="doug-hamaker-resume.pdf" download>PDF version</a>
 </nav>
 
 <section id="expertise">
