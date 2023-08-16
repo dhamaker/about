@@ -149,7 +149,7 @@ style: Resume
   <dd>HTML, CSS, Web Content Accessibility Guidelines (WCAG), WAI-ARIA, FTC .COM Disclosures, schema.org, microformats, Activity Streams, OWASP, Plain Writing Act, HIPAA, E-Sign Act, California Unruh Act, COPPA, CalOPPA, GDPR, California Consumer
     Privacy Protection Act of 2008</dd>
   <dt>Analysis and Design</dt>
-  <dd>paper and pen, whiteboard, HTML, JSON/YAML, Word/Visio/Powerpoint/Excel, Pages/OmniGraffle/Keynote/Numbers, Figma, Sketch</dd>
+  <dd>paper and pen, whiteboard, HTML, JSON, YAML, Word, Visio, Powerpoint, Excel, Pages, OmniGraffle, Keynote, Numbers, Figma, Sketch</dd>
   <dt>Web Content Development</dt>
   <dd>HTML, CSS, Javascript, ARIA, JSON, SVG, Visual Studio Code, progressive enhancement, responsive design</dd>
   <dt>Collaboration Tools</dt>
