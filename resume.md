@@ -9,16 +9,16 @@ style: Resume
 </nav>
 
 <section id="expertise">
-  <h2>Design Expertise</h2>
+  <h2>Expertise</h2>
   <ul class="expertise">
     <li>Web governance and strategy</li>
-    <li>Web Standards and best practices</li>
-    <li>Accessibility and usability design</li>
-    <li>Online privacy and regulations</li>
+    <li>Web Standards, regulations, and best practices</li>
+    <li>Digital accessibility</li>
+    <li>Online privacy</li>
     <li>Information architecture</li>
     <li>Content strategy</li>
     <li>Search engine optimization (SEO)</li>
-    <li>User/product research</li>
+    <li>User research and business analysis</li>
     <li>Web analytics</li>
     <li>Design systems</li>
   </ul>
@@ -28,52 +28,59 @@ style: Resume
   <h2>Work History</h2>
   <section class="job">
     <header>
-      <p class="duration">2021 January - 2023 July</p>
+      <p class="duration">January 2021 - September 2023</p>
       <h3> <span class="title">UX Architect, Accessibility </span> <span class="client">@ U.S. Bank</span> </h3>
-      <p class="unit">Shield Platforms and Design System</p>
+      <p class="unit">Platforms and Design System</p>
     </header>
-    <p>Collaborated in  design of reusable patterns and components. Implemented Accessibility program and metrics. Coached product managers, scrum masters, designers, writers, and developers in Accessibility related topics.</p>
-    <ul>
-    <li>Designed accessible experiences, keyboard behaviors, and navigation for design system, search, authentication, and document management components. Contributed to specifications and usage guidelines.</li>
-    <li>Collaborated to integrate accessibility controls into agile process, created activity dashboards to track engagement, and grew knowledge management systems to support program, policy, and compliance management.</li>
-    <li>Coached teams and individuals to improve knowledge of and skill in the enterprise accessibility program, inclusive design, and accessibility best practices. Provided Accessibility training on special topics.</li>
-    </ul>
-  </section>
-
-  <section class="job">
-    <header>
-      <p class="duration">2019 May - 2020 July</p>
-      <h3> <span class="title">Manager of Accessibility Consulting</span> <span class="client">@ Level Access</span> </h3>
-    </header>
-    <p>Helped product organizations improve access to digital services for everyone and ensure regulatory compliance.</p>
-    <p>Managed team of consultants working with clients to develop accessibility capabilities through policy, education, user research, design, development, and testing levers.</p>
-  </section>
-
-  <section class="job">
-    <header>
-      <p class="duration">2007 - 2018</p>
-      <h3> <span class="title">Sr. Product Manager, User Experience</span> <span class="client">@ Delta Dental of California</span> </h3>
-      <p class="unit">E-Business Group; Enterprise Architecture</p>
-    </header>
-    <p class="summary"> Managed online experience serving 33 million consumer and business users. Directed UX guidelines, site architecture, design patterns, SEO, accessibility, web analytics, and compliance solutions. Advised executives, led
-      projects, coached teams, mentored talent, and supported over 200 sites, twenty domains, and ten brands. </p>
-    <details>
-      <summary>Achievements</summary>
+    <p class="description">Collaborated in  design of reusable patterns and components. Implemented accessibility program and metrics. Coached product managers, scrum masters, designers, writers, and developers in accessibility related topics.</p>
+    <details open>
+      <summary>Accomplishments</summary>
       <ul>
-        <li>Created a UX guidelines, framework, and templates.</li>
-        <li>Designed solutions for marketing growth, sales, support, services, search, account management, education, social media, video, interactive media, maps, reporting, analytics, content and document management, and internationalization.
-        </li>
-        <li>Launched new applications, redesigned and maintained legacy applications, pitched new features, and supported product integrations.</li>
-        <li>Earned page one Google search placements generating 30% of site traffic.</li>
-        <li>Built web analytics practice.</li>
-        <li>Promoted Accessibility and Privacy awareness and features.</li>
-        <li>Introduced rapid HTML prototyping and usability studies.</li>
-        <li>Led design for changes in Healthcare and Privacy regulations and growth of iPhones, tablets, Google Chrome, and other emerging tech.</li>
-        <li>Showcased emerging innovation in blockchain, activity streams, digital wallets, HTML, CSS, responsive design, search, data schemas, identity, privacy, and advertising tech.</li>
-        <li>Represented enterprise interests in professional web and SEO workgroups.</li>
-        <li>Advised C-level and senior executives on e-business and online technology.</li>
-        <li>Educated teams on best practices for design, HTML, Accessibility, and analytics.</li>
-        <li>Mentored individual contributors and managed direct reports and vendor relationships.</li>
+        <li>Designed accessible experiences, keyboard behaviors, and navigation for design system, search, authentication, and document management components. Contributed to specifications and usage guidelines.</li>
+        <li>Created quality controls for early-warning monitoring of accessibility compliance and grew knowledge management systems to support accessibility program.</li>
+        <li>Coached teams and individuals to improve knowledge of and skill in the enterprise accessibility program, inclusive design, and accessibility best practices. Provided accessibility training on special topics.</li>
+      </ul>
+    </details>
+  </section>
+
+  <section class="job">
+    <header>
+      <p class="duration">May 2019 - July 2020</p>
+      <h3> <span class="title">Manager, Accessibility Consulting </span> <span class="client">@ Level Access</span> </h3>
+    </header>
+    <p class="description">Provided consulting and services for accessibility governance, design, and testing.</p>
+    <details open>
+      <summary>Accomplishments</summary>
+      <ul>
+        <li>Helped organizations improve access to digital services for everyone and ensure regulatory compliance.</li>
+        <li>Managed team of consultants working with clients to develop accessibility capabilities through policy, education, user research, design, development, and testing.</li>
+      </ul>
+  </details>
+  </section>
+
+  <section class="job">
+    <header>
+      <p class="duration">April 2007 - January 2018</p>
+      <h3> <span class="title">Sr. Product Manager, User Experience</span> <span class="client">@ Delta Dental of California</span> </h3>
+      <p class="unit">E-Business and Enterprise Architecture</p>
+    </header>
+    <p class="description"> Managed online experience serving 33 million consumer and business users. Directed UX guidelines, site architecture, design patterns, SEO, accessibility, web analytics, and compliance solutions. Advised executives, led
+      projects, coached teams, mentored talent, and supported over 200 sites, twenty domains, and ten brands. </p>
+    <details open>
+      <summary>Accomplishments</summary>
+      <ul>
+        <li>Advised C-level and executives on e-business and online strategy.</li>
+        <li>Represented member company at national association Web and SEO workgroups</li>
+        <li>Demoed innovations in blockchain, activity streams, digital wallets, HTML, CSS, responsive design, search, identity, and privacy.</li>
+        <li>Produced UX guidelines, framework, and templates that guided customer facing design and development for 8 years.</li>
+        <li>Created web analytics practice: selected tools, planned and implemented tagging, analyzed data, and introduced user reports for executives.</li>
+        <li>Led UX strategy and implementation for changes in state and federal regulations of accessibility, privacy and healthcare, including: Section 508 of American Disabilities Act, CA Consumer Privacy Act (CCPA), Children’s Online Privacy Protection Act (COPPA), General Data Protection Regulation (GDPR), Affordable Care Act (ACA), and CA SB137 Provider Directory Standards.</li>
+        <li>Led UX strategy for changes in user device and browser technologies, including: iPhones, tablets, touch screens, and Google Chrome.</li>
+        <li>Evolved design process to include rapid HTML prototyping and usability research.</li>
+        <li>Earned page one Google search placements generating 30% of site traffic. </li>
+        <li>Architected content solutions for marketing, sales, services, search, account management, education, social media, video, interactive media, maps, content and document management, and internationalization.</li>
+        <li>Coordinated UX for heterogenous systems, including: new products, third-party applications, and legacy applications.</li>
+        <li>Managed vendors and direct reports.</li>
       </ul>
       <!-- <p class="summary"> Led user experience for an international health insurer with 33 million customers, 10 brands, 20 domains, and over 200 websites and applications in 2 languages. </p> <details> <summary>Achievements</summary> <ul> <li>Created robust UX framework that has remained compatible with mobile, SEO, web browsers, web standards and consumer regulations for over 8 years.</li> <li>Grew search traffic. Held three Page One search rankings (SERPs) on Google for our top non-branded keyword for five years.</li> <li>Built UX analytics capability. Implemented web analytics, A/B testing, SEO tracking, and Accessibility monitoring. Created tracking guidelines, reported on user trends, supported campaigns, and tutored developers and business users.</li> <li>Advocated for Accessibility across enterprise. Set guidelines, promoted awareness, trained techniques, reported on compliance, and responded to inquiries.</li> <li>Introduced rapid HTML prototyping to clarify requirements, speed development, and improve communication and stakeholder participation.</li> <li>Designed solutions for rapid market changes. From new Affordable Care Act and Privacy Regulations to iPhones, Google Chrome, and HTML5.</li> <li>Led technology innovation for UX. Driving blockchain, activity streams, digital wallets, HTML5, CSS3, responsive design, Drupal, rich search, microformats, identity and consent management.</li> <li>Represented enterprise interests in professional web and SEO workgroups.</li> <li>Advised C-level and senior executives on web related topics including strategy, technology, SEO, social media, accessibility, online privacy, compliance, user tracking, and behavioral advertising.</li> <li>Mentored marketers, writers, analysts, designers, architects, and developers in web technologies and best practices.</li> <li>Managed direct reports, project teams, and vendors.</li> </ul> -->
     </details>
@@ -81,37 +88,36 @@ style: Resume
 
   <section class="job">
     <header>
-      <p class="duration">2004 - 2007 </p>
+      <p class="duration">August 2004 - March 2007 </p>
       <h3> <span class="title">UI Producer / Project Manager</span> <span class="client">@ Wells Fargo Bank</span> </h3>
       <p class="unit">Wholesale Internet Treasury Solutions</p>
     </header>
-    <p>Managed UX design and development for financial products sales and customer account management CRM applications.</p>
-    <p>Planned Agile sprints and served as scrum leader.</p>
+    <p class="description">Led UX design and development for commercial finance and customer management applications using Agile and traditional methodologies.</p>
   </section>
 
   <section class="job">
     <header>
-      <p class="duration">2000 - 2004</p>
+      <p class="duration">January 1997  - August 2004</p>
       <h3> <span class="title">E-Business Consultant</span> <span class="client">@ various</span> </h3>
     </header>
-    <p>Created online marketing strategies, web design, and content management systems for small businesses.</p>
+    <p class="description">Created online strategies, design, and content management solutions for small businesses.</p>
   </section>
 
   <section class="job">
     <header>
-      <p class="duration">1999 - 2000</p>
+      <p class="duration">May 1999 - December 2000</p>
       <h3><span class="position">Solution Architect / Sr. Project Manager</span> <span class="position">@ Red Hat</span></h3>
       <p class="client">Web Development Group</p>
     </header>
-    <p class="description">Managed a product portfolio that included online user account management, customer service, e-commerce, e-learning, and software management products.</p>
+    <p class="description">Managed a web product portfolio that included user access and account management, customer service, e-commerce, e-learning, and software management products.</p>
   </section>
 
   <section class="job">
     <header>
-      <p class="duration">1999</p>
+      <p class="duration">March - May 1999</p>
       <h3><span class="position">Sr. Project Manager</span> <span class="client">@ Atomic Vision</span> </h3>
     </header>
-    <p class="description">Led client engagements at a web/digital marketing agency (acquired by Red Hat in 1999).</p>
+    <p class="description">Led client engagements for a web design agency (acquired by Red Hat).</p>
   </section>
 
   <section class="job">
@@ -119,7 +125,7 @@ style: Resume
       <p class="duration">1995 - 1998</p>
       <h3> <span class="position">Contractor</span> <span class="client">@ Thibault Associates</span> </h3>
     </header>
-    <p class="description">Delivered web, internet, and IT services to clients of a consulting firm.</p>
+    <p class="description">Provided project management, software, and web services to banking, retail, industrial, and government clients of IT consulting firm.</p>
   </section>
 
   <section class="job">
@@ -127,14 +133,22 @@ style: Resume
       <p class="duration">1991 - 1995</p>
       <h3> <span class="position">Product Manager</span> <span class="client">@ GIS\Solutions</span> </h3>
     </header>
-    <p class="description">Managed releases of commercial mapping application used for data analysis and reporting in environmental monitoring.</p>
+    <p class="description">Managed product releases of a data analysis and reporting tool used environmental quality monitoring.</p>
+  </section>
+  <section class="job">
+    <header>
+      <h3>Other work experience</h3>
+    </header>
+      <p class="description">English teacher, Xidian University, China.  Studio assistant, metal sculpture fabrication.  Sound engineer, live music.  Retail sales, photography. Waiter. Dishwasher. Construction. Ranch hand.</p>
   </section>
 </section>
 <section id="education">
   <h2>Education</h2>
   <section class="degree">
-    <h3>MBA/MS in Finance, <span class="school">San Francisco State University</span></h3>
-    <p class="specialty">Honors in Finance.</p>
+    <h3>Master of Science in Finance, <span class="school">San Francisco State University</span></h3>
+    <p class="specialty">Departmental Honors.</p>
+    <h3>Master of Business Administration, <span class="school">San Francisco State University</span></h3>
+    <p class="specialty">Departmental Honors.</p>
   </section>
   <section class="degree">
     <h3>Bachelors of Arts, <span class="school">Occidental College</span></h3>

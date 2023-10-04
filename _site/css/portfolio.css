@@ -209,10 +209,11 @@ article img + img {
 .resume .position, .resume .client {margin:0 0 1em 0}
 .resume .client::first-letter{color:#999}
 .resume .job >  p.summary {display:block;margin-left:0;}
+.resume .job >  p.description {display:block;margin-left:0;}
 .resume h3 {line-height:1.3}
 .resume .job details > ul {padding-left:2em;}
 .resume .job details summary {font-weight:bold;margin-top:1em;}
-.resume .job details summary:after {content:"..."}
+.resume .job details:not([open]) summary:after {content:"..."}
 .resume .job details li {margin:1em 0}
 .resume .job ul {list-style-image:url("i/work.svg")}
 .resume .expertise {list-style-image:url("i/check.svg")}
