@@ -26,6 +26,7 @@
 
 - Rippling. Low interest in details of HR records.  Have avoided HR system.
 - Coinbase. Low interest in trading platform.
+- AGENCY WORK.  Avoid "billable hours" game and burnout.
 
 ## Summary
 
