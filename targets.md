@@ -22,8 +22,15 @@
 - [ ] Chime. Fintech
 - [ ] Early Warning.  Fintech
 
-Interest in consumer facing UI where accessibility and privacy are most relevant.
-
 ## Exclude
+
 - Rippling. Low interest in details of HR records.  Have avoided HR system.
 - Coinbase. Low interest in trading platform.
+
+
+## Summary
+Interest in consumer facing web UI where accessibility and privacy are most relevant.
+
+AR and AI (augmented reality) though interesting and needing compliance are not strength.  Leave for younger UXers who can spend a decade or more working out issues.  There _should_ be enough web.
+
+Software (iOS and Android) doable but look consider target web strategy.
