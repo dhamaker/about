@@ -23,6 +23,15 @@ Schema:  name, career page link, note.  Use all cap NAME for categories.
 - [ ] Early Warning.  Fintech
 - [ ] [Ironclad](https://ironcladapp.com/careers/).  Contracts
 
+## Other by industry
+
+Data: Databricks
+
+Operations/Infrastructure:  Fastly, Cisco Mercai 
+
+Healthcare: Delta Dental, Blue Shield, Forward, 
+
+
 ## Exclude
 
 - Workday, Rippling, Gusto,... Low interest in details of HR records.  Have avoided HR system.
