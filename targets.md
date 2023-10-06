@@ -1,5 +1,5 @@
 # Targets
-Schema:  name, career page link, note
+Schema:  name, career page link, note.  Use all cap NAME for categories.
 ## Top
 
 - [ ] Atlassian
