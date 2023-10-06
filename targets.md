@@ -25,8 +25,9 @@ Schema:  name, career page link, note.  Use all cap NAME for categories.
 
 ## Exclude
 
-- Rippling. Low interest in details of HR records.  Have avoided HR system.
+- Workday, Rippling, Gusto,... Low interest in details of HR records.  Have avoided HR system.
 - Coinbase. Low interest in trading platform.
+- 
 - Uber, Cruise, Lift,... Do not share the vision/mission.
 - AGENCY WORK.  Avoid "billable hours" game and burnout.
 
