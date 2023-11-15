@@ -139,7 +139,7 @@ style: Resume
     <header>
       <h3>Other work experience</h3>
     </header>
-      <p class="description">English teacher, Xidian University, China.  Studio assistant, metal sculpture fabrication.  Sound engineer, live music.  Retail sales, photography. Waiter. Dishwasher. Construction. Ranch hand.</p>
+      <p class="description">English teacher, Xidian University, China.  Studio assistant, metal sculpture fabrication.  Sound engineer, live music.  Retail sales, photography. Waiter. Dishwasher. Construction. Ranchhand.</p>
   </section>
 </section>
 <section id="education">
