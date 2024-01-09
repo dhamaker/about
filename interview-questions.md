@@ -1,4 +1,4 @@
-# Questions for firm
+# Questions for Organization
 
  - [ ] Describe the UX Organization?  Size, roles, reporting structure. e.g architects, designers, writers in UX org.  UX engineers.  UX reports to Product Design.
  - [ ] Describe Workflow including workdlow tools, milestones, documentation, qa and version control. e.g. Jira, Confluence+Lucid Charts, Definition of Done.
