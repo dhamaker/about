@@ -6,6 +6,7 @@
  - [ ] Describe approach to responsive design.
  - [ ] Describe application layer.  e.g. Java, React, AEM.
  - [ ] Describe UX QA process and reporting artifacts
+ - [ ] Describe UX libraries: patterns, flows, error messages.
 
 
 ## Tools
