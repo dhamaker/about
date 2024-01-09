@@ -10,6 +10,8 @@
 
 ## Tools
 
+ - [ ] Mac or PC:
+ - [ ] Mobile devices:
  - [ ] Wireframing:
  - [ ] Prototyping:
  - [ ] Documentation:
