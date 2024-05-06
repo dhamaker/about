@@ -14,16 +14,14 @@ style: Resume
     <li>Web governance and strategy</li>
     <li>Web Standards, regulations, and best practices</li>
     <li>Digital accessibility</li>
-    <li>Online privacy</li>
     <li>Information architecture</li>
-    <li>Content strategy</li>
+    <li>Web and mobile design</li>
+    <li>Design systems and operations</li>
+    <li>Online privacy and consent</li>
     <li>Search engine optimization (SEO)</li>
-    <li>User research and business analysis</li>
-    <li>Web analytics</li>
-    <li>Design systems</li>
+    <li>User research, web analytics, and business analysis</li>
   </ul>
 </section>
-
 <section id="work">
   <h2>Work History</h2>
   <section class="job">
@@ -32,13 +30,16 @@ style: Resume
       <h3> <span class="title">UX Architect, Accessibility </span> <span class="client">@ U.S. Bank</span> </h3>
       <p class="unit">Platforms and Design System</p>
     </header>
-    <p class="description">Collaborated in  design of reusable patterns and components. Implemented accessibility program and metrics. Coached product managers, scrum masters, designers, writers, and developers in accessibility related topics.</p>
+    <p class="description">Collaborated on design system tooling, components, and documentation. Implemented accessibility program.  Coached teams in accessibility practices.</p>
     <details open>
       <summary>Accomplishments</summary>
       <ul>
-        <li>Designed accessible experiences, keyboard behaviors, and navigation for design system, search, authentication, and document management components. Contributed to specifications and usage guidelines.</li>
-        <li>Created quality controls for early-warning monitoring of accessibility compliance and grew knowledge management systems to support accessibility program.</li>
-        <li>Coached teams and individuals to improve knowledge of and skill in the enterprise accessibility program, inclusive design, and accessibility best practices. Provided accessibility training on special topics.</li>
+        <li>Designed system components including date pickers, filter, search, global navigation, authentication, and document management experiences.</li> 
+        <li>Authored design system documentation and technical specifications.</li>
+        <li>Advised on accessibility tools for Figma, Storybook, and Zero Height to build consistent accessibility into design system.</li>
+        <li>Implemented controls for program monitoring and coached product teams on enterprise practices and accessibility best practices.</li>
+        <li>Developed training and knowledge base for advanced accessibility topics.</li>
+        <li>Collaborated on innovation for digital wallets, authentication, and personalization.</li>
       </ul>
     </details>
   </section>
@@ -48,12 +49,14 @@ style: Resume
       <p class="duration">May 2019 - July 2020</p>
       <h3> <span class="title">Manager, Accessibility Consulting </span> <span class="client">@ Level Access</span> </h3>
     </header>
-    <p class="description">Provided consulting and services for accessibility governance, design, and testing.</p>
+    <p class="description">Consulted on design systems, consumer applications, usability testing, and design ops for industry leading technology, media, banking, insurance, and government clients.</p>
     <details open>
       <summary>Accomplishments</summary>
       <ul>
-        <li>Helped organizations improve access to digital services for everyone and ensure regulatory compliance.</li>
-        <li>Managed team of consultants working with clients to develop accessibility capabilities through policy, education, user research, design, development, and testing.</li>
+        <li>Managed consulting team providing policy, training, user research, design, development, and testing services.</li>
+        <li>Provided technical sales support.</li>
+        <li>Produced design system guidelines, quality control processes, and remediation plans.</li>
+        <li>Conducted usability studies for accessible experiences.</li>
       </ul>
   </details>
   </section>
@@ -64,25 +67,22 @@ style: Resume
       <h3> <span class="title">Sr. Product Manager, User Experience</span> <span class="client">@ Delta Dental of California</span> </h3>
       <p class="unit">E-Business and Enterprise Architecture</p>
     </header>
-    <p class="description"> Managed online experience serving 33 million consumer and business users. Directed UX guidelines, site architecture, design patterns, SEO, accessibility, web analytics, and compliance solutions. Advised executives, led
-      projects, coached teams, mentored talent, and supported over 200 sites, twenty domains, and ten brands. </p>
+    <p class="description"> Managed online experience serving 33 million consumer and business users. Directed UX guidelines and desing systems, site architecture, SEO, accessibility, analytics, and regulatory and compliance solutions. Supported portfolio of 200 sites, twenty domains, and ten brands. Advised executives, led projects, coached teams, managed vendors, and mentored talent.</p>
     <details open>
       <summary>Accomplishments</summary>
       <ul>
         <li>Advised C-level and executives on e-business and online strategy.</li>
-        <li>Represented member company at national association Web and SEO workgroups</li>
-        <li>Demoed innovations in blockchain, activity streams, digital wallets, HTML, CSS, responsive design, search, identity, and privacy.</li>
-        <li>Produced UX guidelines, framework, and templates that guided customer facing design and development for 8 years.</li>
-        <li>Created web analytics practice: selected tools, planned and implemented tagging, analyzed data, and introduced user reports for executives.</li>
-        <li>Led UX strategy and implementation for changes in state and federal regulations of accessibility, privacy and healthcare, including: Section 508 of American Disabilities Act, CA Consumer Privacy Act (CCPA), Children’s Online Privacy Protection Act (COPPA), General Data Protection Regulation (GDPR), Affordable Care Act (ACA), and CA SB137 Provider Directory Standards.</li>
-        <li>Led UX strategy for changes in user device and browser technologies, including: iPhones, tablets, touch screens, and Google Chrome.</li>
-        <li>Evolved design process to include rapid HTML prototyping and usability research.</li>
-        <li>Earned page one Google search placements generating 30% of site traffic. </li>
-        <li>Architected content solutions for marketing, sales, services, search, account management, education, social media, video, interactive media, maps, content and document management, and internationalization.</li>
-        <li>Coordinated UX for heterogenous systems, including: new products, third-party applications, and legacy applications.</li>
-        <li>Managed vendors and direct reports.</li>
+        <li>Represented organization in national association workgroups.</li>
+        <li>Managed direct reports, vendors and inter-department relationships.</li>
+        <li>Demonstrated innovations in blockchain, digital wallets, activity streams, HTML5, CSS, responsive design, search, and privacy.</li>
+        <li>Produced robust UX guidelines, design systems, and templates used for eight years.</li>
+        <li>Established web analytics practice using Google Analytics.  Planned and implemented tagging.  Analyzed and reported trends.</li>
+        <li>Established SEO practice and achieved top ten search rankings generating 30% of site traffic.</li>
+        <li>Planned UX strategy for changing State and Federal regulations governing online commerce, online privacy, accessibility, and healthcare.</li>
+        <li>Planned UX strategy to changing consumer technologies, including devices (iPhones, tablets), interactions (touch screens), and user agents (Google Chrome).</li>
+        <li>Designed broad range of regulated experiences, including:  site navigation, registration and account management, marketing and sales, customer support, document management, search, SEO, social media, video, infographics, and internationalization.</li>
+        <li>Adapted UX guidance for build, buy, and legacy solutions.</li>    
       </ul>
-      <!-- <p class="summary"> Led user experience for an international health insurer with 33 million customers, 10 brands, 20 domains, and over 200 websites and applications in 2 languages. </p> <details> <summary>Achievements</summary> <ul> <li>Created robust UX framework that has remained compatible with mobile, SEO, web browsers, web standards and consumer regulations for over 8 years.</li> <li>Grew search traffic. Held three Page One search rankings (SERPs) on Google for our top non-branded keyword for five years.</li> <li>Built UX analytics capability. Implemented web analytics, A/B testing, SEO tracking, and Accessibility monitoring. Created tracking guidelines, reported on user trends, supported campaigns, and tutored developers and business users.</li> <li>Advocated for Accessibility across enterprise. Set guidelines, promoted awareness, trained techniques, reported on compliance, and responded to inquiries.</li> <li>Introduced rapid HTML prototyping to clarify requirements, speed development, and improve communication and stakeholder participation.</li> <li>Designed solutions for rapid market changes. From new Affordable Care Act and Privacy Regulations to iPhones, Google Chrome, and HTML5.</li> <li>Led technology innovation for UX. Driving blockchain, activity streams, digital wallets, HTML5, CSS3, responsive design, Drupal, rich search, microformats, identity and consent management.</li> <li>Represented enterprise interests in professional web and SEO workgroups.</li> <li>Advised C-level and senior executives on web related topics including strategy, technology, SEO, social media, accessibility, online privacy, compliance, user tracking, and behavioral advertising.</li> <li>Mentored marketers, writers, analysts, designers, architects, and developers in web technologies and best practices.</li> <li>Managed direct reports, project teams, and vendors.</li> </ul> -->
     </details>
   </section>
 
@@ -92,7 +92,7 @@ style: Resume
       <h3> <span class="title">UI Producer / Project Manager</span> <span class="client">@ Wells Fargo Bank</span> </h3>
       <p class="unit">Wholesale Internet Treasury Solutions</p>
     </header>
-    <p class="description">Led UX design and development for commercial finance and customer management applications using Agile and traditional methodologies.</p>
+    <p class="description">Managed user experience design and development for customer management and commercial financing applications.  Adapted UX processes for Agile and iterative (RUP) software development frameworks.</p>
   </section>
 
   <section class="job">
