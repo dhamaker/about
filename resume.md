@@ -30,7 +30,7 @@ style: Resume
       <h3> <span class="title">UX Architect, Accessibility </span> <span class="client">@ U.S. Bank</span> </h3>
       <p class="unit">Platforms and Design System</p>
     </header>
-    <p class="description">Collaborated on design system tooling, components, and documentation. Implemented accessibility program.  Coached teams in accessibility practices.</p>
+    <p class="description">Collaborated on design system components, documentation, and tooling. Implemented accessibility program.  Coached teams in accessibility practices.</p>
     <details open>
       <summary>Accomplishments</summary>
       <ul>
