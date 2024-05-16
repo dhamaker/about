@@ -35,11 +35,11 @@ style: Resume
       <summary>Accomplishments</summary>
       <ul>
         <li>Designed system components including date pickers, filter, search, global navigation, authentication, and document management experiences.</li> 
-        <li>Authored design system documentation and technical specifications.</li>
-        <li>Advised on accessibility tools for Figma, Storybook, and Zero Height to build consistent accessibility into design system.</li>
-        <li>Implemented controls for program monitoring and coached product teams on enterprise practices and accessibility best practices.</li>
+        <li>Authored general guidelines, usage documentation and technical specifications.</li>
+        <li>Advised on accessibility tooling for Figma, Storybook, and Zero Height to improve access and consistency across design operations.</li>
+        <li>Implemented program controls and coached product teams to support compliance and management reporting.</li>
         <li>Developed training and knowledge base for advanced accessibility topics.</li>
-        <li>Collaborated on innovation for digital wallets, authentication, and personalization.</li>
+        <li>Collaborated on product innovation for digital wallets, authentication, and personalization.</li>
       </ul>
     </details>
   </section>
@@ -54,7 +54,6 @@ style: Resume
       <summary>Accomplishments</summary>
       <ul>
         <li>Managed consulting team providing policy, training, user research, design, development, and testing services.</li>
-        <li>Provided technical sales support.</li>
         <li>Produced design system guidelines, quality control processes, and remediation plans.</li>
         <li>Conducted usability studies for accessible experiences.</li>
       </ul>
@@ -74,7 +73,7 @@ style: Resume
         <li>Advised C-level and executives on e-business and online strategy.</li>
         <li>Represented organization in national association workgroups.</li>
         <li>Managed direct reports, vendors and inter-department relationships.</li>
-        <li>Demonstrated innovations in blockchain, digital wallets, activity streams, HTML5, CSS, responsive design, search, and privacy.</li>
+        <li>Demonstrated innovations in blockchain, digital wallets, activity streams, HTML5, search, and privacy.</li>
         <li>Produced robust UX guidelines, design systems, and templates used for eight years.</li>
         <li>Established web analytics practice using Google Analytics.  Planned and implemented tagging.  Analyzed and reported trends.</li>
         <li>Established SEO practice and achieved top ten search rankings generating 30% of site traffic.</li>
